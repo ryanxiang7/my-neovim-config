@@ -51,9 +51,11 @@ M.mason = {
 -- git support in nvimtree
 M.nvimtree = {
   git = {
-    enable = true,
+    enable = false,
   },
-
+  view ={
+    side = 'right'
+  },
   renderer = {
     highlight_git = true,
     icons = {
